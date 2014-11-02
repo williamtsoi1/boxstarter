@@ -1,0 +1,72 @@
+# Set explorer and windows options
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+Disable-UAC
+
+# Windows features
+cinst IIS-WebServerRole -source windowsfeatures
+
+# Dev tools
+cinst console-devel
+cinst curl
+cinst DotNet4.5.1 
+cinst paint.net
+cinst putty
+cinst SublimeText3
+cinst VisualStudio2013Ultimate
+cinst visualstudio2013-update1
+cinst visualstudio2013-update2
+cinst visualstudio2013-update3
+cinst resharper
+cinst xamarin-visualstudio
+cinst javaruntime
+cinst nodejs.install
+cinst powershell
+cinst fiddler
+cinst conemu
+cinst cygwin
+cinst wireshark
+cinst winmerge
+
+# Miscellaneous tools
+cinst 7zip.commandline
+cinst adobereader
+cinst windirstat
+cinst greenshot
+cinst lastpass
+cinst winrar
+cinst filezilla
+cinst ccleaner
+cinst sysinternals
+cinst skype
+cinst dropbox
+cinst teamviewer
+cinst utorrent
+cinst googledrive
+cinst evernote
+cinst yumi
+cinst avgantivirusfree
+
+# Multimedia
+cinst picasa
+cinst itunes
+cinst vlc
+cinst flashplayerplugin
+cinst spotify
+
+# Source Control
+cinst git
+cinst SourceTree
+
+# Browsers
+cinst GoogleChrome
+cinst firefox
+
+#Virtualisation
+cinst ruby
+cinst vagrant
+cinst virtualbox
+
+#gaming
+cinst steam
+cinst origin
