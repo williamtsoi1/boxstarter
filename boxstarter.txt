@@ -44,6 +44,7 @@ cinst teamviewer
 cinst utorrent
 cinst googledrive
 cinst evernote
+cinst winscp
 cinst yumi
 cinst avgantivirusfree
 
@@ -70,3 +71,5 @@ cinst virtualbox
 #gaming
 cinst steam
 cinst origin
+cinst battle.net
+cinst geforce-experience
