@@ -14,8 +14,6 @@ cinst paint.net
 cinst putty
 cinst SublimeText3
 cinst VisualStudio2013Ultimate
-cinst visualstudio2013-update1
-cinst visualstudio2013-update2
 cinst visualstudio2013-update3
 cinst resharper
 cinst xamarin-visualstudio
@@ -27,6 +25,7 @@ cinst conemu
 cinst cygwin
 cinst wireshark
 cinst winmerge
+cinst powershell
 
 # Miscellaneous tools
 cinst 7zip.commandline
@@ -47,6 +46,8 @@ cinst evernote
 cinst winscp
 cinst yumi
 cinst avgantivirusfree
+cinst putty
+cinst mremoteng
 
 # Multimedia
 cinst picasa
@@ -60,7 +61,7 @@ cinst git
 cinst SourceTree
 
 # Browsers
-cinst GoogleChrome
+cinst google-chrome-x64
 cinst firefox
 
 #Virtualisation
@@ -73,3 +74,6 @@ cinst steam
 cinst origin
 cinst battle.net
 cinst geforce-experience
+cinst heroesofnewerth
+cinst leagueoflegends
+
