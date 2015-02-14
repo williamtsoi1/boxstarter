@@ -13,6 +13,7 @@ cinst DotNet4.5.1
 cinst paint.net
 cinst putty
 cinst SublimeText3
+cinst atom
 cinst VisualStudio2013Ultimate
 cinst visualstudio2013-update3
 cinst resharper
@@ -46,7 +47,6 @@ cinst evernote
 cinst winscp
 cinst yumi
 cinst avgantivirusfree
-cinst putty
 cinst mremoteng
 
 # Multimedia
