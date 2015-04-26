@@ -1,6 +1,6 @@
 # Set explorer and windows options
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
-Enable-RemoteDesktop
+# Enable-RemoteDesktop
 Disable-UAC
 
 # Windows features
