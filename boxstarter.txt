@@ -7,33 +7,29 @@ Disable-UAC
 cinst IIS-WebServerRole -source windowsfeatures
 
 # Dev tools
-cinst console-devel
 cinst curl
-cinst DotNet4.5.1 
+cinst DotNet4.5.1
 cinst paint.net
 cinst putty
-cinst SublimeText3
-cinst atom
+cinst SublimeText
 cinst VisualStudio2013Ultimate
 cinst visualstudio2013-update3
 cinst resharper
 cinst xamarin-visualstudio
 cinst javaruntime
 cinst nodejs.install
-cinst powershell
 cinst fiddler
 cinst conemu
 cinst cygwin
 cinst wireshark
 cinst winmerge
-cinst powershell
+cinst webstorm
 
 # Miscellaneous tools
 cinst 7zip.commandline
 cinst adobereader
 cinst windirstat
 cinst greenshot
-cinst lastpass
 cinst winrar
 cinst filezilla
 cinst ccleaner
@@ -48,6 +44,8 @@ cinst winscp
 cinst yumi
 cinst avgantivirusfree
 cinst mremoteng
+cinst 1password
+
 
 # Multimedia
 cinst picasa
