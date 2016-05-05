@@ -1,27 +1,26 @@
 # Set explorer and windows options
 Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 Enable-RemoteDesktop
-Disable-UAC
+Enable-UAC
 
 # Windows features
 cinst IIS-WebServerRole -source windowsfeatures
 
 # Dev tools
 cinst curl
-cinst DotNet4.5.1
+cinst dotnet4.6.1-devpack
 cinst paint.net
 cinst putty
 cinst SublimeText
-cinst VisualStudio2013Ultimate
+cinst VisualStudio2015Community
 cinst resharper
-#cinst xamarin-visualstudio
 cinst javaruntime
-cinst nodejs.install
+cinst nodejs
 cinst fiddler
 cinst conemu
-cinst cygwin
-cinst winmerge
+cinst p4merge
 cinst webstorm
+cinst rubymine
 
 # Miscellaneous tools
 cinst 7zip.commandline
@@ -34,42 +33,41 @@ cinst ccleaner
 cinst sysinternals
 cinst skype
 cinst dropbox
-#cinst teamviewer
-#cinst utorrent
+cinst teamviewer
+cinst utorrent
 cinst googledrive
 cinst evernote
 cinst winscp
-#cinst yumi
-#cinst avgantivirusfree
-#cinst mremoteng
+cinst yumi
+cinst avgantivirusfree
+cinst mremoteng
 cinst 1password
 
 
 # Multimedia
-#cinst picasa
-#cinst itunes
-#cinst vlc
-#cinst flashplayerplugin
-#cinst spotify
+cinst picasa
+cinst itunes
+cinst vlc
+cinst flashplayerplugin
+cinst spotify
 
 # Source Control
 cinst git
-cinst SourceTree
+cinst gitkraken
+
 
 # Browsers
 cinst google-chrome-x64
 cinst firefox
 
 #Virtualisation
-#cinst ruby
-#cinst vagrant
-#cinst virtualbox
+cinst ruby
+cinst vagrant
+cinst virtualbox
 
 #gaming
-#cinst steam
-#cinst origin
-#cinst battle.net
-#cinst geforce-experience
-#cinst heroesofnewerth
-#cinst leagueoflegends
+cinst steam
+cinst origin
+cinst battle.net
+cinst geforce-experience
 
