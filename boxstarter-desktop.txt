@@ -10,17 +10,18 @@ cinst IIS-WebServerRole -source windowsfeatures
 cinst curl
 cinst dotnet4.6.1-devpack
 cinst paint.net
-cinst putty
-cinst SublimeText
+cinst mobaxterm
+cinst SublimeText3
 cinst VisualStudio2015Community
 cinst resharper
-cinst javaruntime
+cinst jre8
 cinst nodejs
 cinst fiddler
 cinst conemu
 cinst p4merge
 cinst webstorm
-cinst rubymine
+cinst wireshark
+cinst awscli
 
 # Miscellaneous tools
 cinst 7zip.commandline
@@ -42,6 +43,7 @@ cinst yumi
 cinst avgantivirusfree
 cinst mremoteng
 cinst 1password
+cinst rainmeter
 
 
 # Multimedia
