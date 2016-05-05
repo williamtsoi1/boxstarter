@@ -1,0 +1,74 @@
+# Set explorer and windows options
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+Enable-UAC
+
+# Windows features
+cinst IIS-WebServerRole -source windowsfeatures
+
+# Dev tools
+cinst curl
+cinst dotnet4.6.1-devpack
+cinst paint.net
+cinst mobaxterm
+cinst SublimeText3
+cinst VisualStudio2015Community
+cinst resharper
+cinst jre8
+cinst nodejs
+cinst fiddler
+cinst conemu
+cinst p4merge
+cinst webstorm
+cinst wireshark
+cinst awscli
+
+# Miscellaneous tools
+cinst 7zip.commandline
+cinst adobereader
+cinst windirstat
+cinst greenshot
+cinst winrar
+cinst filezilla
+cinst ccleaner
+cinst sysinternals
+cinst skype
+cinst dropbox
+#cinst teamviewer
+#cinst utorrent
+cinst googledrive
+cinst evernote
+cinst winscp
+cinst yumi
+cinst avgantivirusfree
+#cinst mremoteng
+cinst 1password
+cinst rainmeter
+
+
+# Multimedia
+cinst picasa
+cinst itunes
+cinst vlc
+cinst flashplayerplugin
+cinst spotify
+
+# Source Control
+cinst git
+cinst gitkraken
+
+
+# Browsers
+cinst google-chrome-x64
+cinst firefox
+
+#Virtualisation
+cinst ruby
+#cinst vagrant
+#cinst virtualbox
+
+#gaming
+#cinst steam
+#cinst origin
+#cinst battle.net
+#cinst geforce-experience
