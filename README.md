@@ -13,7 +13,7 @@ Installation
 - (optional) Fork this repo and make your own changes to boxstarter.txt as you desire
 - Open up Internet Explorer, and browse to this URL
 ```
-http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/williamtsoi1/boxstarter/master/boxstarter.txt
+http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/williamtsoi1/boxstarter/master/boxstarter-desktop.txt
 ```
 - If you made your own modifications to the script, change the querystring to suit
 - Go to sleep for the night
