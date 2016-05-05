@@ -47,11 +47,11 @@ cinst rainmeter
 
 
 # Multimedia
-cinst picasa
-cinst itunes
-cinst vlc
-cinst flashplayerplugin
-cinst spotify
+#cinst picasa
+#cinst itunes
+#cinst vlc
+#cinst flashplayerplugin
+#cinst spotify
 
 # Source Control
 cinst git
