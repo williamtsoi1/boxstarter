@@ -4,26 +4,14 @@ Enable-RemoteDesktop
 Enable-UAC
 
 # Windows features
-cinst IIS-WebServerRole -source windowsfeatures
+#cinst IIS-WebServerRole -source windowsfeatures
 
-# Dev tools
-cinst curl
-cinst dotnet4.6.1-devpack
-cinst paint.net
-cinst mobaxterm
-cinst SublimeText3
-cinst VisualStudio2015Community
-cinst resharper
-cinst jre8
-cinst nodejs
-cinst fiddler
-cinst conemu
-cinst p4merge
-cinst webstorm
-cinst wireshark
-cinst awscli
+# Browsers
+cinst google-chrome-x64
+cinst firefox
 
 # Miscellaneous tools
+cinst paint.net
 cinst 7zip.commandline
 cinst adobereader
 cinst windirstat
@@ -45,7 +33,6 @@ cinst mremoteng
 cinst 1password
 cinst rainmeter
 
-
 # Multimedia
 cinst picasa
 cinst itunes
@@ -57,10 +44,24 @@ cinst spotify
 cinst git
 cinst gitkraken
 
+# Dev tools
+cinst curl
+cinst mobaxterm
+cinst SublimeText3
+cinst jre8
+cinst fiddler
+cinst p4merge
+cinst wireshark
+cinst awscli
 
-# Browsers
-cinst google-chrome-x64
-cinst firefox
+# web dev
+cinst nodejs
+cinst webstorm
+
+# .NET Dev tools
+cinst dotnet4.6.1-devpack
+cinst VisualStudio2015Community
+cinst resharper
 
 #Virtualisation
 cinst ruby
