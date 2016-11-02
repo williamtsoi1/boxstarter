@@ -7,70 +7,71 @@ Enable-UAC
 #cinst IIS-WebServerRole -source windowsfeatures
 
 # Browsers
-cinst google-chrome-x64
-cinst firefox
+cinst google-chrome-x64 --ignore-checksums -y 
+cinst firefox --ignore-checksums -y
 
 # Miscellaneous tools
-cinst paint.net
-cinst 7zip.commandline
-cinst adobereader
-cinst windirstat
-cinst greenshot
-cinst winrar
-cinst filezilla
-cinst ccleaner
-cinst sysinternals
-cinst skype
-cinst dropbox
-cinst teamviewer
-cinst utorrent
-cinst googledrive
-cinst evernote
-cinst winscp
-cinst yumi
-cinst avgantivirusfree
-cinst mremoteng
-cinst 1password
-cinst rainmeter
-
-# Multimedia
-cinst picasa
-cinst itunes
-cinst vlc
-cinst flashplayerplugin
-cinst spotify
-
-# Source Control
-cinst git
-cinst gitkraken
-
-# Dev tools
-cinst curl
-cinst mobaxterm
-cinst SublimeText3
-cinst jre8
-cinst fiddler
-cinst p4merge
-cinst wireshark
-cinst awscli
-
-# web dev
-cinst nodejs
-cinst webstorm
-
-# .NET Dev tools
-cinst dotnet4.6.1-devpack
-cinst VisualStudio2015Community
-cinst resharper
-
-#Virtualisation
-cinst ruby
-cinst vagrant
-cinst virtualbox
+cinst paint.net --ignore-checksums -y
+cinst 7zip.commandline --ignore-checksums -y
+cinst adobereader --ignore-checksums -y
+cinst windirstat --ignore-checksums -y
+cinst greenshot --ignore-checksums -y
+cinst winrar --ignore-checksums -y
+cinst filezilla --ignore-checksums -y
+cinst ccleaner --ignore-checksums -y
+cinst sysinternals --ignore-checksums -y
+cinst skype --ignore-checksums -y
+cinst dropbox --ignore-checksums -y
+cinst teamviewer --ignore-checksums -y
+cinst utorrent --ignore-checksums -y
+cinst googledrive --ignore-checksums -y
+cinst evernote --ignore-checksums -y
+cinst winscp --ignore-checksums -y
+cinst yumi --ignore-checksums -y
+cinst avgantivirusfree --ignore-checksums -y
+cinst mremoteng --ignore-checksums -y
+cinst 1password --ignore-checksums -y
+cinst rainmeter --ignore-checksums -y
 
 #gaming
-cinst steam
-cinst origin
-cinst battle.net
-cinst geforce-experience
+cinst steam --ignore-checksums -y
+cinst origin --ignore-checksums -y
+cinst battle.net --ignore-checksums -y
+cinst geforce-experience --ignore-checksums -y
+
+# Multimedia
+cinst picasa --ignore-checksums -y
+cinst itunes --ignore-checksums -y
+cinst vlc --ignore-checksums -y
+cinst flashplayerplugin --ignore-checksums -y
+cinst spotify --ignore-checksums -y
+
+# Source Control
+cinst git --ignore-checksums -y
+cinst gitkraken --ignore-checksums -y
+
+# Dev tools
+cinst curl --ignore-checksums -y
+cinst mobaxterm --ignore-checksums -y
+cinst SublimeText3 --ignore-checksums -y
+cinst jre8 --ignore-checksums -y
+cinst fiddler --ignore-checksums -y
+cinst p4merge --ignore-checksums -y
+cinst wireshark --ignore-checksums -y
+cinst awscli --ignore-checksums -y
+
+# web dev
+cinst nodejs --ignore-checksums -y
+cinst webstorm --ignore-checksums -y
+
+# .NET Dev tools
+cinst dotnet4.6.1-devpack --ignore-checksums -y
+cinst VisualStudio2015Community --ignore-checksums -y
+cinst resharper --ignore-checksums -y
+
+#Virtualisation
+cinst ruby --ignore-checksums -y
+cinst vagrant --ignore-checksums -y
+cinst virtualbox --ignore-checksums -y
+
 
