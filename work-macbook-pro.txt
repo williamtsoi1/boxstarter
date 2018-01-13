@@ -1,0 +1,79 @@
+# Set explorer and windows options
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Enable-RemoteDesktop
+Enable-UAC
+
+# Windows features
+cinst IIS-WebServerRole -source windowsfeatures
+
+# Browsers
+cinst firefox --ignore-checksums -y
+
+# Miscellaneous tools
+cinst paint.net --ignore-checksums -y
+cinst 7zip.commandline --ignore-checksums -y
+cinst adobereader --ignore-checksums -y
+cinst windirstat --ignore-checksums -y
+cinst greenshot --ignore-checksums -y
+cinst winrar --ignore-checksums -y
+cinst filezilla --ignore-checksums -y
+cinst ccleaner --ignore-checksums -y
+cinst sysinternals --ignore-checksums -y
+cinst skype --ignore-checksums -y
+cinst dropbox --ignore-checksums -y
+cinst teamviewer --ignore-checksums -y
+cinst utorrent --ignore-checksums -y
+cinst googledrive --ignore-checksums -y
+cinst evernote --ignore-checksums -y
+cinst winscp --ignore-checksums -y
+cinst yumi --ignore-checksums -y
+cinst avgantivirusfree --ignore-checksums -y
+cinst mremoteng --ignore-checksums -y
+cinst 1password --ignore-checksums -y
+cinst rainmeter --ignore-checksums -y
+
+# Multimedia
+cinst vlc --ignore-checksums -y
+cinst flashplayerplugin --ignore-checksums -y
+cinst spotify --ignore-checksums -y
+
+# Source Control
+cinst git --ignore-checksums -y
+cinst gitkraken --ignore-checksums -y
+
+# Dev tools
+cinst curl --ignore-checksums -y
+cinst mobaxterm --ignore-checksums -y
+cinst VisualStudioCode --ignore-checksums -y
+cinst jre8 --ignore-checksums -y
+cinst fiddler --ignore-checksums -y
+cinst p4merge --ignore-checksums -y
+cinst wireshark --ignore-checksums -y
+cinst awscli --ignore-checksums -y
+cinst azure-cli --ignore-checksums -y
+cinst windowsazurepowershell --ignore-checksums -y
+
+# web dev
+cinst nodejs --ignore-checksums -y
+
+# Visual Studio
+cinst visualstudio2017enterprise --ignore-checksums -y
+cinst visualstudio2017-workload-azure --ignore-checksums -y
+cinst visualstudio2017-workload-data --ignore-checksums -y
+cinst visualstudio2017-workload-netcoretools --ignore-checksums -y
+cinst visualstudio2017-workload-netweb --ignore-checksums -y
+cinst visualstudio2017-workload-node --ignore-checksums -y
+
+cinst resharper --ignore-checksums -y
+
+#Virtualisation
+cinst ruby --ignore-checksums -y
+cinst vagrant --ignore-checksums -y
+cinst virtualbox --ignore-checksums -y
+
+# Containerisation
+cinst docker-for-windows --ignore-checksums -y
+cinst kubernetes-cli --ignore-checksums -y
+cinst minikube --ignore-checksums -y
+cinst vscode-docker --ignore-checksums -y
+
