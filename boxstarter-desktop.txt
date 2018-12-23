@@ -8,7 +8,7 @@ Enable-UAC
 
 # Browsers
 cinst google-chrome-x64 --ignore-checksums -y 
-cinst firefox --ignore-checksums -y
+#cinst firefox --ignore-checksums -y
 
 # Miscellaneous tools
 cinst paint.net --ignore-checksums -y
@@ -31,7 +31,7 @@ cinst yumi --ignore-checksums -y
 cinst avgantivirusfree --ignore-checksums -y
 cinst mremoteng --ignore-checksums -y
 cinst 1password --ignore-checksums -y
-cinst rainmeter --ignore-checksums -y
+#cinst rainmeter --ignore-checksums -y
 
 #gaming
 cinst steam --ignore-checksums -y
@@ -53,7 +53,7 @@ cinst gitkraken --ignore-checksums -y
 # Dev tools
 cinst curl --ignore-checksums -y
 cinst mobaxterm --ignore-checksums -y
-cinst SublimeText3 --ignore-checksums -y
+#cinst SublimeText3 --ignore-checksums -y
 cinst jre8 --ignore-checksums -y
 cinst fiddler --ignore-checksums -y
 cinst p4merge --ignore-checksums -y
@@ -62,16 +62,16 @@ cinst awscli --ignore-checksums -y
 
 # web dev
 cinst nodejs --ignore-checksums -y
-cinst webstorm --ignore-checksums -y
+#cinst webstorm --ignore-checksums -y
 
 # .NET Dev tools
-cinst dotnet4.6.1-devpack --ignore-checksums -y
-cinst VisualStudio2015Community --ignore-checksums -y
-cinst resharper --ignore-checksums -y
+#cinst dotnet4.6.1-devpack --ignore-checksums -y
+#cinst VisualStudio2015Community --ignore-checksums -y
+#cinst resharper --ignore-checksums -y
 
 #Virtualisation
-cinst ruby --ignore-checksums -y
-cinst vagrant --ignore-checksums -y
+#cinst ruby --ignore-checksums -y
+#cinst vagrant --ignore-checksums -y
 cinst virtualbox --ignore-checksums -y
 
 
